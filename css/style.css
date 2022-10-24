@@ -1,0 +1,421 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+
+
+.header{
+    background-image: url(./img/photo/photoheader.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-color: #996B60;
+    height: 800px;
+     
+}
+.top{
+    height: 50px;
+    background-color: black;
+    width: 100%;
+}
+
+.text_top{
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+}  
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.logo{
+    padding-top: 40px;
+    
+   
+}
+.navigation{
+    padding-top: 40px;  
+}
+
+.item_nav{
+    margin: 0 30px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.alc{
+    display: flex;
+    justify-content: flex-end;  
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+
+.title_alc{
+    margin-bottom: 34px;
+    font-family: 'Liberation Serif';
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 96px;
+    color: white;
+}
+
+.text_alc{
+    margin-bottom: 46px;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.btn_alc{
+    border: 0;
+    padding: 18px 52px;
+    background: none;
+    border: 1px solid #FFFFFF;
+    text-transform: uppercase;
+}
+
+
+
+.brends{
+    margin-top: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray ;
+    padding-bottom: 40px;
+}
+
+.text_brand{
+    text-align: center;
+    margin-bottom: 36px;
+}
+
+
+.promo{
+    margin-top: 105px;
+    padding-bottom: 141px;
+    border-bottom: 1px solid gray;
+}
+
+.block_card{
+    margin-top: 80px;
+}
+
+.subtitle{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.title_promo{
+    margin: 25px 0;
+    text-align: center;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.title_card{
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.text_block_card{
+    margin-top: 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.btn_card{
+    margin-top: 27px;
+    padding: 18px 49px;
+    background-color: #191919;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ;
+    
+}
+.btn_card:hover{
+    
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+
+.block_card{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_block_card{
+    max-width: 451px;
+    text-align: center;
+}
+
+.block_intro{
+    margin-top: 60px;
+    padding-bottom: 95px;
+    border-bottom: 1px solid gray;
+}
+
+.subtitle_intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 54px;
+}
+
+.text_intro{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.title_intro{
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 80px;
+}
+
+
+.easy_to_drink{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title_easy{
+    margin-top: 20px;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.text_easy{
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.title_big_easy{
+    margin-top: 25px;
+    font-family: 'Liberation Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+
+.afters{
+    margin-top: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.block_afters_card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 313px;
+}
+
+.title_after{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.name_after{
+    margin: 15px 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.subtitle_after{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #8A8A8A;
+}
+
+.differently{
+    height: 470px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title_block_diff{
+    height: 320px;
+}
+
+.title_diff{
+    font-family: 'Liberation Serif';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.text_diff{
+    margin-bottom: 35px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.btn_more_diff{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+.set_the_mood{
+    margin-top: 60px;
+    background-image: url(../img/photo/bgsetthemood.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mood_cards{
+    padding: 60px 0px;
+}
+.card_mood{
+    margin-bottom: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 303px;
+    width: 550px;
+    background-color: black;
+    color: white;
+}
+.text_card_mood{
+    margin-bottom: 26px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.btn_card_mood{
+    padding: 19px 58px;
+    border: 0;
+    background-color: white;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.title_card_mood{
+    font-family: 'Liberation Serif';
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 80px;
+}
+
+.follow_set_the_mood{
+    margin-top: 18px;
+    background-color: black;
+    color: white;
+    width: 550px;
+    height: 125px;
+}
+
+.text_follow_mood{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.block_soclink_mood{
+    text-align: center;
+}
+.soclink_mood{
+    margin: 0px 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+
